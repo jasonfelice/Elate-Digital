@@ -4296,12 +4296,37 @@ body {
   border-radius: 5px;
   padding: 20px 40px;
   filter: drop-shadow(2px 4px 6px lightgrey);
+  border: 7px solid transparent;
   width: 30%;
+  transition: all 0.2s ease;
+}
+
+#skills .service-item:hover {
+  border: 7px solid #dbeeff;
+  transform: scale(0.95);
 }
 
 #skills .service-item img {
   width: 70px;
   height: 70px;
+}
+
+@media screen and (max-width: 1270px) {
+  #skills .service-item {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  #skills .service-item {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #skills .service-item {
+    width: 90%;
+  }
 }
 
 #skills article div {
