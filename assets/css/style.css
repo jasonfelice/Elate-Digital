@@ -4151,6 +4151,11 @@ body {
 .row.elate1 {
   margin-top: 6rem;
 }
+
+#skills {
+  padding-bottom: 50px;
+}
+
 #skills .container-fluid .card{
   position: relative;
   width: 280px;
@@ -4284,6 +4289,18 @@ body {
   width: 60px;
   margin: 24px auto;
   padding: 6px;
+}
+
+#skills .service-item {
+  background: #fff;
+  border-radius: 5px;
+  padding: 20px 40px;
+  filter: drop-shadow(2px 4px 6px lightgrey);
+}
+
+#skills .service-item img {
+  width: 70px;
+  height: 70px;
 }
 
 #skills article div {
