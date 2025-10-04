@@ -4296,6 +4296,7 @@ body {
   border-radius: 5px;
   padding: 20px 40px;
   filter: drop-shadow(2px 4px 6px lightgrey);
+  width: 30%;
 }
 
 #skills .service-item img {
