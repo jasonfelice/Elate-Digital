@@ -2508,6 +2508,16 @@ section .inr-skill {
   width: 100%;
 }
 
+/* Our story section new */
+
+.process-item {
+  width: 35%;
+  justify-content: space-around;
+  color: #140230;
+  /* background: blue; */
+}
+
+
 .stars {
     position: absolute;
     top: 0;
@@ -4296,14 +4306,14 @@ body {
   border-radius: 5px;
   padding: 20px 40px;
   filter: drop-shadow(2px 4px 6px lightgrey);
-  border: 7px solid transparent;
-  width: 30%;
+  border: 1px solid transparent;
+  width: 23%;
   transition: all 0.2s ease;
 }
 
 #skills .service-item:hover {
-  border: 7px solid #dbeeff;
-  transform: scale(0.95);
+  border: 1px solid #bbca0d;
+  transform: scale(0.99);
 }
 
 #skills .service-item img {
@@ -4313,19 +4323,19 @@ body {
 
 @media screen and (max-width: 1270px) {
   #skills .service-item {
-    width: 40%;
+    width: 23%;
   }
 }
 
 @media screen and (max-width: 995px) {
   #skills .service-item {
-    width: 70%;
+    width: 40%;
   }
 }
 
 @media screen and (max-width: 500px) {
   #skills .service-item {
-    width: 90%;
+    width: 70%;
   }
 }
 
