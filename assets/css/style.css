@@ -2510,6 +2510,45 @@ section .inr-skill {
 
 /* Our story section new */
 
+.process-step {
+  color: black;
+}
+
+.process-info {
+  border: 1px solid green;
+  width: 350px;
+}
+
+.process-info-badge {
+  background: #eaeaea;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.process-info-description h3 {
+  color: #150130 !important;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+}
+
+.process-info-description {}
+
+.process-pointer-wrapper {
+  width: 50px;
+  border: 1px solid red;
+}
+
+.process-pointer {}
+
+.process-line {}
+
+.process-icon img {
+  width: 180px;
+}
+
+
 .process-item {
   width: 35%;
   justify-content: space-around;
