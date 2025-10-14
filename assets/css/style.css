@@ -2512,6 +2512,7 @@ section .inr-skill {
 
 .process-step {
   color: black;
+  border: 1px solid blue;
 }
 
 .process-info {
@@ -2538,11 +2539,23 @@ section .inr-skill {
 .process-pointer-wrapper {
   width: 50px;
   border: 1px solid red;
+  position: relative;
 }
 
-.process-pointer {}
+.process-pointer {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: green;
+  transform: rotate(-45deg);
+}
 
-.process-line {}
+.process-line {
+  width: 5px;
+  height: 100%;
+  background-color: blue;
+  margin: auto;
+}
 
 .process-icon img {
   width: 180px;
