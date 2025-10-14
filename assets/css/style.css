@@ -2518,6 +2518,7 @@ section .inr-skill {
 .process-info {
   border: 1px solid green;
   width: 350px;
+  margin-bottom: 90px;;
 }
 
 .process-info-badge {
@@ -2546,15 +2547,30 @@ section .inr-skill {
   width: 50px;
   height: 50px;
   position: absolute;
-  background: green;
-  transform: rotate(-45deg);
+  z-index: 1;
+  background: #bbca0d;
+}
+
+.pointer-top {
+  transform: rotate(45deg);
+  border-radius: 100% 100% 0 100%;
+}
+
+.pointer-mid {
+  transform: rotate(45deg);
+  border-radius: 0 65% 0 65%;
 }
 
 .process-line {
   width: 5px;
   height: 100%;
-  background-color: blue;
   margin: auto;
+  transform: translateX(0.5px);
+  background-color: #bbca0d;
+}
+
+.process-icon {
+  width: 350px;
 }
 
 .process-icon img {
