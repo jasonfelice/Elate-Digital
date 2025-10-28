@@ -2508,14 +2508,6 @@ section .inr-skill {
 }
 
 /* Our story section new */
-@keyframes fade_in {
-  from {
-    opacity: 0%;
-  }
-  to {
-    opacity: 100%;
-  }
-}
 
 .process-step {
   color: black;
@@ -2569,12 +2561,46 @@ section .inr-skill {
   border-radius: 0 100% 100% 100%;
 }
 
+@keyframes drawDown {
+  from {
+    height: 0%;
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes scale {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .process-line {
   width: 3px;
-  height: 100%;
+  /* height: 100%; */
   margin: auto;
   transform: translateX(0.5px);
   background-color: #bbca0d;
+}
+
+.process-pointer {
+  animation: scale ease-in forwards;
+  animation-timeline: view(block 90% 0%);
+}
+
+.line-one {
+  animation: drawDown ease forwards;
+  animation-timeline: view(block 60% 11%)
+}
+
+.line-two {
+  animation: drawDown ease forwards;
+  animation-timeline: view();
 }
 
 .process-icon {
