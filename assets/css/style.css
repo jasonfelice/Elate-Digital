@@ -2621,6 +2621,7 @@ section .inr-skill {
 
 .process-icon img {
   width: 170px;
+  filter: drop-shadow(0px 4px 10px lightgrey);
 }
 
 .process-item {
