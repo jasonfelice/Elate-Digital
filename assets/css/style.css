@@ -2510,11 +2510,12 @@ section .inr-skill {
 /* Our story section new */
 
 .process-step {
-  color: black;
+  color: #150130;
 }
 
 .process-info {
   width: 350px;
+    margin-bottom: 80px;
 }
 
 .process-info-badge {
@@ -2597,11 +2598,11 @@ section .inr-skill {
 
 .process-icon {
   width: 350px;
+  margin-bottom: 80px;
 }
 
 .process-icon img {
-  width: 180px;
-  margin-bottom: 50px;
+  width: 170px;
 }
 
 .process-item {
