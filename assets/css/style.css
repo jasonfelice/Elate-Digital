@@ -2586,21 +2586,13 @@ section .inr-skill {
   margin: auto;
   transform: translateX(0.5px);
   background-color: #bbca0d;
+  animation: drawDown ease forwards;
+  animation-timeline: view(block 60% 11%);
 }
 
 .process-pointer {
   animation: scale ease-in forwards;
-  animation-timeline: view(block 90% 0%);
-}
-
-.line-one {
-  animation: drawDown ease forwards;
-  animation-timeline: view(block 60% 11%)
-}
-
-.line-two {
-  animation: drawDown ease forwards;
-  animation-timeline: view();
+  animation-timeline: view(block 92% 0%);
 }
 
 .process-icon {
@@ -2612,12 +2604,10 @@ section .inr-skill {
   margin-bottom: 50px;
 }
 
-
 .process-item {
   width: 35%;
   justify-content: space-around;
   color: #140230;
-  /* background: blue; */
 }
 
 
