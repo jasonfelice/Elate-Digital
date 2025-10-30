@@ -2199,7 +2199,7 @@ div#abt {
 #hero-header section#skills {
   background-color: #f3f3f3;
   color: #150130;
-  
+  padding: 50px 0;
   overflow: hidden;
 }
 
@@ -2675,7 +2675,6 @@ section .inr-skill {
   .process-line {
     width: 2px;
   }
-
 
   .process-info {
     width: 170px;
