@@ -2539,8 +2539,18 @@ section .inr-skill {
   }
 }
 
+@keyframes turn {
+  from {
+    border-radius: 100% 100% 100% 100%;
+  }
+  to {
+    border-radius: 100% 100% 0% 100%;
+  }
+}
+
 .process-step {
   color: #150130;
+  justify-content: space-evenly;
 }
 
 .process-info {
@@ -2629,6 +2639,63 @@ section .inr-skill {
   justify-content: space-around;
   color: #140230;
 }
+
+@media screen and (max-width: 991px) {
+  #hero-header section#about .col-md-12 p {
+    padding: 0;
+  }
+
+  .process-step {
+    justify-content: space-between !important;
+  }
+
+  .process-info {
+    width: 250px;
+  }
+
+  .process-icon {
+    width: 250px
+  }
+
+  .process-icon img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .process-pointer-wrapper {
+    width: 20px;
+  }
+
+  .process-pointer {
+    width: 20px;
+    height: 20px;
+  }
+
+  .process-line {
+    width: 2px;
+  }
+
+
+  .process-info {
+    width: 170px;
+  }
+
+  .process-icon {
+    width: 170px
+  }
+
+  .process-icon img {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .process-line {
+    transform: translateX(0);
+  }
+}
+
 
 .stars {
     position: absolute;
