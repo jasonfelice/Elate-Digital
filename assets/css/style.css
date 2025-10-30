@@ -2597,6 +2597,15 @@ section .inr-skill {
   border-radius: 100% 100% 0 100%;
 }
 
+@keyframes mid-pointer {
+  from {
+    border-radius: 100% 100% 100% 100%;
+  }
+  to {
+    border-radius: 0 65% 0 65%;
+  }
+}
+
 .pointer-mid {
   transform: rotate(45deg);
   border-radius: 0 65% 0 65%;
@@ -2609,16 +2618,17 @@ section .inr-skill {
 
 .process-line {
   width: 3px;
-  /* height: 100%; */
   margin: auto;
   transform: translateX(0.5px);
   background-color: #bbca0d;
   animation: drawDown ease forwards;
+  animation-duration: 1ms; /* for Firefox */
   animation-timeline: view(block 60% 11%);
 }
 
 .process-pointer {
   animation: scale ease-in forwards;
+  animation-duration: 1ms; /* for Firefox */  
   animation-timeline: view(block 92% 0%);
 }
 
@@ -2626,6 +2636,7 @@ section .inr-skill {
   width: 350px;
   margin-bottom: 80px;
   animation: fadeUp ease forwards;
+  animation-duration: 1ms; /* for Firefox */
   animation-timeline: view(block 70% 0%);
 }
 
