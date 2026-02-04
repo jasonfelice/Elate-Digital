@@ -2628,7 +2628,7 @@ section .inr-skill {
 
 .process-pointer {
   animation: scale ease-in forwards;
-  animation-duration: 1ms; /* for Firefox */  
+  animation-duration: 1ms; /* for Firefox */
   animation-timeline: view(block 92% 0%);
 }
 
