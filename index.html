@@ -779,6 +779,160 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <script src='https://code.jquery.com/jquery-3.4.1.js'></script>
       <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/esm/popper.js'></script>
       <script src='https://unpkg.com/@popperjs/core@2'></script>
+
+      <script>
+        // Add new clients logo
+        (function(){
+
+          const newClients = [
+    {
+        "name":  "-Visa-Ping-logo",
+        "path":  "assets/client_logo/-Visa-Ping-logo.png"
+    },
+    {
+        "name":  "100-rep",
+        "path":  "assets/client_logo/100-rep.png"
+    },
+    {
+        "name":  "A-Tuck-Inn-logo",
+        "path":  "assets/client_logo/A-Tuck-Inn-logo.png"
+    },
+    {
+        "name":  "ArchitecUS",
+        "path":  "assets/client_logo/ArchitecUS.png"
+    },
+    {
+        "name":  "arista",
+        "path":  "assets/client_logo/arista.png"
+    },
+    {
+        "name":  "Arvind",
+        "path":  "assets/client_logo/Arvind.png"
+    },
+    {
+        "name":  "Astro-Umesh-Final-Logo",
+        "path":  "assets/client_logo/Astro-Umesh-Final-Logo.png"
+    },
+    {
+        "name":  "Ayoni",
+        "path":  "assets/client_logo/Ayoni.png"
+    },
+    {
+        "name":  "Bittam-Garage-Logo-final",
+        "path":  "assets/client_logo/Bittam-Garage-Logo-final.png"
+    },
+    {
+        "name":  "CMA",
+        "path":  "assets/client_logo/CMA.png"
+    },
+    {
+        "name":  "CQ",
+        "path":  "assets/client_logo/CQ.png"
+    },
+    {
+        "name":  "cubiken",
+        "path":  "assets/client_logo/cubiken.png"
+    },
+    {
+        "name":  "DA-final-logo-01-01",
+        "path":  "assets/client_logo/DA-final-logo-01-01.png"
+    },
+    {
+        "name":  "Duerr-Group-Logo-horizontal-RGB",
+        "path":  "assets/client_logo/Duerr-Group-Logo-horizontal-RGB.png"
+    },
+    {
+        "name":  "Ecoprocess",
+        "path":  "assets/client_logo/Ecoprocess.png"
+    },
+    {
+        "name":  "envisage",
+        "path":  "assets/client_logo/envisage.png"
+    },
+    {
+        "name":  "FFSS",
+        "path":  "assets/client_logo/FFSS.png"
+    },
+    {
+        "name":  "Godrej-New-Logo",
+        "path":  "assets/client_logo/Godrej-New-Logo.png"
+    },
+    {
+        "name":  "iskcon",
+        "path":  "assets/client_logo/iskcon.png"
+    },
+    {
+        "name":  "Karkhana-Logo",
+        "path":  "assets/client_logo/Karkhana-Logo.png"
+    },
+    {
+        "name":  "komurr",
+        "path":  "assets/client_logo/komurr.png"
+    },
+    {
+        "name":  "med-con",
+        "path":  "assets/client_logo/med-con.png"
+    },
+    {
+        "name":  "navratna",
+        "path":  "assets/client_logo/navratna.png"
+    },
+    {
+        "name":  "net-xero",
+        "path":  "assets/client_logo/net-xero.png"
+    },
+    {
+        "name":  "niif",
+        "path":  "assets/client_logo/niif.png"
+    },
+    {
+        "name":  "REM-Logo",
+        "path":  "assets/client_logo/REM-Logo.png"
+    },
+    {
+        "name":  "revive",
+        "path":  "assets/client_logo/revive.png"
+    },
+    {
+        "name":  "skytag",
+        "path":  "assets/client_logo/skytag.png"
+    },
+    {
+        "name":  "surgery",
+        "path":  "assets/client_logo/surgery.png"
+    },
+    {
+        "name":  "The_Times_of_India_Logo_full",
+        "path":  "assets/client_logo/The_Times_of_India_Logo_full.png"
+    },
+    {
+        "name":  "Times-Group2",
+        "path":  "assets/client_logo/Times-Group2.png"
+    },
+    {
+        "name":  "veda-mode",
+        "path":  "assets/client_logo/veda-mode.png"
+    },
+    {
+        "name":  "wal-n-mo-ciecle-logo",
+        "path":  "assets/client_logo/wal-n-mo-ciecle-logo.png"
+    },
+    {
+        "name":  "white-bull",
+        "path":  "assets/client_logo/white-bull.png"
+    }
+          ];
+
+
+          newClients.map((client) => {
+            const slideTrack = document.querySelector('.slide-track');
+            const slide = document.createElement('div');
+            slide.classList.add('slide');
+            slide.innerHTML = `<img src=${client.path} height="100" width="250" alt=${client.name}>`;
+            slideTrack.prepend(slide);
+          });
+        }())
+      </script>
       
       <script>
       $(window).scroll(function (event) {
